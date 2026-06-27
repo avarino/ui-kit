@@ -9,7 +9,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
     dts({
-      insertTypesEntry: true
+      insertTypesEntry: false
     })
   ],
   
