@@ -2,6 +2,10 @@ import type { ButtonHTMLAttributes } from "react";
 
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
 
+export type Variants = {
+  filled: string;
+};
+
 export function Button({ children, ...props }: ButtonProps) {
   return (
     <button
