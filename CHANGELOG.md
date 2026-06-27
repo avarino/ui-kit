@@ -1,5 +1,11 @@
 # ui-kit
 
+## 1.2.0
+
+### Minor Changes
+
+- f8eccf1: add variants type of button
+
 ## 1.1.0
 
 ### Minor Changes
