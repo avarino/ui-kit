@@ -1,5 +1,11 @@
 # ui-kit
 
+## 1.1.0
+
+### Minor Changes
+
+- 07c0f67: remove some files
+
 ## 1.0.0
 
 ### Major Changes
