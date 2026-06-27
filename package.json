@@ -1,21 +1,39 @@
 {
-  "name": "ui-kit",
-  "private": true,
+  "name": "@avarino/ui-kit",
+  "private": false,
   "version": "0.1.0",
   "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
-
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "test": "",
+    "test": "echo \"No tests yet\"",
     "preview": "vite preview",
-    
+    "typecheck": "tsc --noEmit",
     "changeset": "changeset",
     "version": "changeset version",
     "release": "changeset publish"
   },
-  "dependencies": {
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "peerDependencies": {
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   },
@@ -31,9 +49,12 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.3",
     "globals": "^17.6.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
     "tailwindcss": "^4.3.1",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.61.0",
-    "vite": "^8.1.0"
+    "vite": "^8.1.0",
+    "vite-plugin-dts": "^5.0.3"
   }
 }
