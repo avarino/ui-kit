@@ -1,5 +1,12 @@
 # ui-kit
 
+## 1.7.0
+
+### Minor Changes
+
+- feat: restrict release token has gone
+- 091f73e: feat: add textarea component
+
 ## 1.6.0
 
 ### Minor Changes
