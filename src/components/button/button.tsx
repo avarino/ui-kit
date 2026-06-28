@@ -7,6 +7,13 @@ export type Variants = {
   outline: string;
 };
 
+const variants: Variants = {
+  filled: "bg-blue-500",
+  outline: "border-blue-300",
+};
+
+console.log(variants);
+
 export function Button({ children, ...props }: ButtonProps) {
   return (
     <button
