@@ -1,5 +1,11 @@
 # ui-kit
 
+## 1.5.0
+
+### Minor Changes
+
+- 8f07d92: remove: remove variant type button
+
 ## 1.4.0
 
 ### Minor Changes
