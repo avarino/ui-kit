@@ -1,5 +1,12 @@
 # ui-kit
 
+## 1.3.0
+
+### Minor Changes
+
+- b232b21: add: add new feature variants to button
+- ddcea3e: add new variant to button with property outline
+
 ## 1.2.1
 
 ### Patch Changes
