@@ -1,5 +1,12 @@
 # ui-kit
 
+## 1.4.0
+
+### Minor Changes
+
+- 1de1fb1: add text variant button
+- c606ab9: add ghost variants
+
 ## 1.3.0
 
 ### Minor Changes
