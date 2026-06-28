@@ -4,6 +4,7 @@ type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
 
 export type Variants = {
   filled: string;
+  outline: string;
 };
 
 export function Button({ children, ...props }: ButtonProps) {
