@@ -2,8 +2,6 @@ import type { ButtonHTMLAttributes } from "react";
 
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
 
-const a: string = 10;
-console.log(a);
 export type Variants = {
   filled: string;
 };
