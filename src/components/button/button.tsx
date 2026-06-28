@@ -5,6 +5,7 @@ type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
 export type Variants = {
   filled: string;
   outline: string;
+  ghost?: string;
 };
 
 const variants: Variants = {
