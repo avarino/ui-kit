@@ -1,5 +1,11 @@
 # ui-kit
 
+## 1.6.0
+
+### Minor Changes
+
+- 28e3985: feat: add textarea feature to component
+
 ## 1.5.0
 
 ### Minor Changes
