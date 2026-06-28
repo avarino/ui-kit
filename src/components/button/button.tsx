@@ -6,11 +6,13 @@ export type Variants = {
   filled: string;
   outline: string;
   ghost?: string;
+  text: string;
 };
 
 const variants: Variants = {
   filled: "bg-blue-500",
   outline: "border-blue-300",
+  text: "text-red-50",
 };
 
 console.log(variants);
