@@ -29,5 +29,5 @@ jobs:
           publish: npx changeset publish
           version: npx changeset version
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.CHANGESETS_PAT }}
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
