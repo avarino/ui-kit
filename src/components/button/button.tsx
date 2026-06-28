@@ -2,10 +2,6 @@ import type { ButtonHTMLAttributes } from "react";
 
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
 
-type ButtonVariants = "filled" | "outline" | "ghost";
-const test: ButtonVariants = "filled";
-console.log(test);
-
 export function Button({ children, ...props }: ButtonProps) {
   return (
     <button
