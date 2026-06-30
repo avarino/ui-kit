@@ -25,14 +25,14 @@
 
 ## Testing
 
-<!-- Check all that apply. -->
-
-- [] `npm run lint`
-- [] `npm run typecheck`
-- [] `npm test`
-- [] `npm run build`
-- [] Storybook verified
 - [] Tested manually
+- [] Storybook verified
+- [] Accessibility verified
+- [] New tests added (if required)
+
+### Notes
+
+<!-- Describe any manual testing performed. -->
 
 ---
 
