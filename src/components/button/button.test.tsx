@@ -4,10 +4,9 @@ import { Button } from "./Button";
 
 describe("Button", () => {
   it("renders children", () => {
-    const children: string = "click me";
-    render(<Button>{children}</Button>);
+    render(<Button>Click me</Button>);
 
-    expect(screen.getByText(children)).toBeInTheDocument();
+    expect(screen.getByRole("button")).toHaveTextContent("Click me");
   });
 
   it("renders as button element", () => {
