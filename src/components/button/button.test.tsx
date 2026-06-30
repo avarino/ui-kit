@@ -1,12 +1,13 @@
 import { render, screen } from "@testing-library/react";
 import { describe, it, expect } from "vitest";
-import { Button } from "./button";
+import { Button } from "./Button";
 
 describe("Button", () => {
   it("renders children", () => {
-    render(<Button>Click me</Button>);
+    const children: string = "click me";
+    render(<Button>{children}</Button>);
 
-    expect(screen.getByText("Click me")).toBeInTheDocument();
+    expect(screen.getByText(children)).toBeInTheDocument();
   });
 
   it("renders as button element", () => {

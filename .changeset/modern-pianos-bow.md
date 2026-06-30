@@ -2,4 +2,4 @@
 "@avarino/ui-kit": minor
 ---
 
-add console in test
+feat: add new zirsakht to project
