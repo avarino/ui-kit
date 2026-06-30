@@ -1,5 +1,11 @@
 # ui-kit
 
+## 1.8.0
+
+### Minor Changes
+
+- 1e64ad0: add console in test
+
 ## 1.7.0
 
 ### Minor Changes
