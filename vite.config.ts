@@ -21,12 +21,12 @@ export default defineConfig({
       entry: resolve(__dirname, "src/index.ts"),
       name: "UIKit",
       formats: ["es", "cjs"],
+
       fileName: (format) => `index.${format === "es" ? "js" : "cjs"}`,
     },
 
     rollupOptions: {
       external: ["react", "react-dom"],
-
       output: {
         globals: {
           react: "React",
