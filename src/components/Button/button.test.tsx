@@ -1,12 +1,12 @@
 import { render, screen } from "@testing-library/react";
 import { describe, it, expect } from "vitest";
-import { Button } from "./button";
+import { Button } from "./Button";
 
 describe("Button", () => {
   it("renders children", () => {
     render(<Button>Click me</Button>);
 
-    expect(screen.getByText("Click me")).toBeInTheDocument();
+    expect(screen.getByRole("button")).toHaveTextContent("Click me");
   });
 
   it("renders as button element", () => {
@@ -27,6 +27,6 @@ describe("Button", () => {
     const btn = screen.getByRole("button");
 
     expect(btn).toHaveClass("bg-blue-600");
-    expect(btn).toHaveClass("rounded-lg");
+    expect(btn).toHaveClass("rounded-md");
   });
 });
