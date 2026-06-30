@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import { expect } from "storybook/test";
-import { Plus, ArrowRight } from "lucide-react";
 import { Button } from "./Button";
+import { Plus, ArrowRight } from "lucide-react";
 
 const meta = {
   title: "Components/Button",
