@@ -28,6 +28,6 @@ describe("Button", () => {
     const btn = screen.getByRole("button");
 
     expect(btn).toHaveClass("bg-blue-600");
-    expect(btn).toHaveClass("rounded-lg");
+    expect(btn).toHaveClass("rounded-md");
   });
 });
