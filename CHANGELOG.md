@@ -1,5 +1,11 @@
 # ui-kit
 
+## 1.9.0
+
+### Minor Changes
+
+- c5e80f3: feat: add new zirsakht to project
+
 ## 1.8.0
 
 ### Minor Changes
