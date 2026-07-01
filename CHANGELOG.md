@@ -1,5 +1,11 @@
 # ui-kit
 
+## 1.10.0
+
+### Minor Changes
+
+- 026e4f7: create textarea component
+
 ## 1.9.1
 
 ### Patch Changes
