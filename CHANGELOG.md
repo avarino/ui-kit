@@ -1,5 +1,11 @@
 # ui-kit
 
+## 1.9.1
+
+### Patch Changes
+
+- 0275c2c: "chore: add changeset"
+
 ## 1.9.0
 
 ### Minor Changes
