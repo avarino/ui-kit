@@ -1,0 +1,15 @@
+{
+  "release": [
+    "src/**",
+    "package.json"
+  ],
+
+  "ignore": [
+    "**/*.test.*",
+    "**/*.stories.*",
+    "**/*.md",
+    "docs/**",
+    ".github/**",
+    ".changeset/**"
+  ]
+}
