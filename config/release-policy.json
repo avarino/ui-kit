@@ -1,15 +1,11 @@
 {
-  "release": [
-    "src/**",
-    "package.json"
+  "requiredChangeset": [
+    "src/**"
   ],
 
-  "ignore": [
-    "**/*.test.*",
-    "**/*.stories.*",
-    "**/*.md",
-    "docs/**",
-    ".github/**",
-    ".changeset/**"
-  ]
+  "branches": [
+    "main"
+  ],
+
+  "warningOnly": false
 }
