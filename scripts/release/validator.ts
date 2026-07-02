@@ -1,6 +1,6 @@
 import * as micromatch from "micromatch";
 
-import type { ValidationResult, ValidationInput } from "./types";
+import type { ValidationResult, ValidationInput } from "./types.ts";
 
 const CHANGESET_PATTERN = ".changeset/*.md";
 

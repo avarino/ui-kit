@@ -1,12 +1,12 @@
-import { getAddedFiles, getChangedFiles } from "./files";
+import { getAddedFiles, getChangedFiles } from "./files.ts";
 
-import { summary } from "./github";
+import { summary } from "./github.ts";
 
-import { group, endGroup, notice, error } from "./github";
+import { group, endGroup, notice, error } from "./github.ts";
 
-import { loadPolicy } from "./policy";
+import { loadPolicy } from "./policy.ts";
 
-import { validate } from "./validator";
+import { validate } from "./validator.ts";
 
 async function main() {
   group("Changeset Validation");

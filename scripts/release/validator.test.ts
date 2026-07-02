@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { validate } from "./validator";
+import { validate } from "./validator.ts";
 
 const policy = {
   requiredChangeset: ["src/**"],
