@@ -1,4 +1,4 @@
-import * as micromatch from "micromatch";
+import { isMatch } from "micromatch";
 
 import type { ValidationResult, ValidationInput } from "./types.ts";
 
@@ -10,7 +10,7 @@ export function validate({
   policy,
 }: ValidationInput): ValidationResult {
   const releaseFiles = changedFiles.filter((file) =>
-    micromatch.isMatch(file, policy.requiredChangeset),
+    isMatch(file, policy.requiredChangeset),
   );
 
   if (releaseFiles.length === 0) {
@@ -25,7 +25,7 @@ export function validate({
   }
 
   const hasChangeset = addedFiles.some((file) =>
-    micromatch.isMatch(file, CHANGESET_PATTERN),
+    isMatch(file, CHANGESET_PATTERN),
   );
 
   if (!hasChangeset) {
