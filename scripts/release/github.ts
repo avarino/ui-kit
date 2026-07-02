@@ -20,7 +20,7 @@ export function error(message: string) {
   console.log(`::error::${message}`);
 }
 
-export async function summery(text: string) {
+export async function summary(text: string) {
   const file = process.env.GITHUB_STEP_SUMMARY;
 
   if (!file) {

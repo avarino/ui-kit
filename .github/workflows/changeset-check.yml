@@ -42,4 +42,4 @@ jobs:
         env:
           ALL_CHANGED_FILES: ${{ steps.changed.outputs.all_changed_files }}
           ADDED_FILES: ${{ steps.changed.outputs.added_files }}
-        run: node scripts/check-changeset.mjs
+        run: node scripts/release/index.ts
